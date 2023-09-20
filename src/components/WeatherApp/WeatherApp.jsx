@@ -12,7 +12,12 @@ const WeatherApp = () => {
 
     let api_key = "afd9e51caac3d2ba4129e8ffbf0cf199";
     const search = () => {
-
+        const element = document.getElementsByClassName("cityInput");
+        if(element[0].value===""){
+            //If we have nothing in the input string then return 0.
+            return 0;
+        }
+        let url = "https://api.openweathermap.org/data/2.5/weather?q=London&units=Metric&appid=afd9e51caac3d2ba4129e8ffbf0cf199";
     }
 
   return (
