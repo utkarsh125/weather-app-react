@@ -1,3 +1,4 @@
+/* afd9e51caac3d2ba4129e8ffbf0cf199 - API Key */
 .container{
 
     width: 607px;
@@ -42,5 +43,51 @@
 
 .weather-image{
     margin-top: 29px;
-    
+    display: flex;
+    justify-content: center;
+
+}
+
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 120px;
+    font-weight: 400;
+}
+
+.weather-location{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.data-container{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.element{
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.data{
+    font-size: 34px;
+    font-weight: 400;   
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.icon{
+    margin-top: 10px;
 }
